@@ -6,9 +6,6 @@ Ext.onReady(() => {
         width: 400,
         title: 'Hello world',
         store: new Ext.data.Store({
-            fields: [
-                'name', 'email', 'phone'
-            ],
             data: [
                 { name: 'Jean Luc', email: "jeanluc.picard@enterprise.com", phone: "555-111-1111" },
                 { name: 'Worf', email: "worf.moghsson@enterprise.com", phone: "555-222-2222" },
